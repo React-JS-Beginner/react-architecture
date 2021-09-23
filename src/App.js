@@ -6,6 +6,8 @@ import diffing from "./4.png";
 import props from "./5.png";
 import cycle from "./8.png";
 import pvs from "./9.png";
+import propsread from "./6.png"
+import state from "./7.png"
 
 function App() {
   return (
@@ -179,6 +181,18 @@ function App() {
       </div>
 
       <br />
+        <div>
+          <img
+            style={{ margin: "10px" }}
+            width={700}
+            height={240}
+            src={state}
+            alt=""
+          />
+        </div>
+        <br />
+
+      <br />
       <br />
       {/* /////////////////////props///////////////////// */}
       <div className="props">
@@ -194,6 +208,18 @@ function App() {
           />
         </div>
         <br />
+        <div>
+          <img
+            style={{ margin: "10px" }}
+            width={400}
+            height={180}
+            src={propsread}
+            alt=""
+          />
+        </div>
+        <br />
+
+
         <h2>React unique key for arr.map( )</h2>
         <a href="https://reactjs.org/docs/lists-and-keys.html">
           https://reactjs.org/docs/lists-and-keys.html
@@ -213,7 +239,7 @@ function App() {
                 <br />
         <h2>Props V/S State</h2>
         <br />
-        
+
         <div>
           <img
             style={{ margin: "10px" }}
