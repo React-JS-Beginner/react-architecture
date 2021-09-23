@@ -213,6 +213,7 @@ function App() {
                 <br />
         <h2>Props V/S State</h2>
         <br />
+        
         <div>
           <img
             style={{ margin: "10px" }}
